@@ -159,3 +159,26 @@ img {
     text-align: center;
     padding: 1em;
 }
+
+.squares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square-container {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 10em;
+}
+.square {
+    width: 10em;
+    height: 10em;
+    border: solid;
+    border-color: blue;
+    border-radius: 8px;
+    margin-bottom: 0.5em;
+}
