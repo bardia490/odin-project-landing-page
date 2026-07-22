@@ -1,0 +1,161 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.header,
+.hero, .footer {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .links {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.hero .left .title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero .info {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    flex-wrap: wrap;
+    width: 20em;
+    align-items: center;
+    padding-left: 0.4em;
+}
+
+.sign-up {
+    background-color: #2882F6;
+    border-radius: 8px;
+    padding: 8px 27px;
+    color: #E5E7EB;
+    border: none;
+    text-align: center;
+    align-self: flex-start;
+}
+
+img {
+    margin: 2em;
+}
+
+.level1{
+}
+
+.level1 .info {
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 0.8em;
+}
+
+.level2 {
+    background-color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.level2 .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 40em;
+    padding: 1em;
+    margin: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.level2 .writer {
+    margin-left: 30em;
+    font-weight: 900;
+}
+
+.level3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10em;
+}
+
+.l3-square {
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 1em;
+    margin: 1em;
+    width: 70%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.l3-square .sign-up {
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+    align-self: center;
+}
+
+.l3-square .text {
+    color: white;
+}
+
+.l3-square .text .above {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
